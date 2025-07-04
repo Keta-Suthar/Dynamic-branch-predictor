@@ -107,6 +107,8 @@ M2: Bimodal index bits
 trace_file: Branch trace file
 ```
 ### OUTPUT
-number of predictions, number of mispredictions, misprediction rate were printed for every simulation with the content predicted for the final destination
+For each simulation, the program prints the number of predictions, number of mispredictions, and the misprediction rate, along with the final contents of the predictor tables. The [Output folder](https://github.com/Keta-Suthar/Dynamic-branch-predictor/tree/main/Output) contains: 
+- The val_*.txt files generated during simulation
+- A comparison file showing the performance of Bimodal and Gshare predictors across varying M and N values
 
 For further details contact me on: ksuthar@ncsu.edu
